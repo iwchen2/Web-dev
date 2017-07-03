@@ -1,0 +1,12 @@
+body{
+  background-color: white;
+  font-family: monospace;
+}
+
+h1,h2{
+  color: green;
+}
+
+a{
+  color: blue
+}
