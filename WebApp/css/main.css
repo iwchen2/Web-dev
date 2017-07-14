@@ -7,12 +7,16 @@ a{
 }
 
 .bg-1{
-  background-color: #57ad0c; /* Green */
+  background-color: #5cb85c; /* Green */
   color: #ffffff;
 }
 
 #feeding > img{
   padding: 5px 30px 30px 0px;
+}
+
+#caring > img{
+  padding: 5px 0px 30px 30px
 }
 
 /*Nav-bar settings*/
@@ -97,4 +101,42 @@ a{
   max-height: 100%;
   object-fit: contain;
   /*margin:auto;*/
+}
+
+/*Adoption section settings*/
+#adoption .adopt
+  {
+    border: 1px solid #f6f6f6;
+    margin-top: 100px;
+    transition: all 0.4s ease-in;
+    padding: 40px;
+  }
+#adoption .adopt_box
+ {
+    margin-top: 60px;
+ }
+
+#adoption .adopt .adopt_title
+ {
+   border-bottom: 1px solid #f6f6f6;
+   color: #9bc848;
+   font-size: 24px;
+   padding: 20px;
+ }
+
+#adoption  .adopt ul
+{
+  padding: 0px;
+  font-size: 14px;
+}
+
+#adoption .adopt ul li
+ {
+   display: block;
+   padding: 20px 0 20px 0;
+ }
+
+footer{
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif
 }
